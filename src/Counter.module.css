@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.wrapCounter {
+    background-color: blueviolet;
+    border: 4px solid yellow;
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 360px;
+    height: 360px;
+    vertical-align: middle;
+    padding-top: 40px;
+}
+
+.display {
+    width: 320px;
+    height: 140px;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    font-size: 100px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    text-align: center
+}
+
+.btnBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnInc {
+    width: 160px;
+    height: 140px;
+    border-radius: 10px;
+}
+
+.btnRes {
+    width: 160px;
+    height: 140px;
+    border-radius: 10px;
+}
+
+.error {
+    width: 320px;
+    height: 140px;
+    border: 2px solid red;
+    border-radius: 10px;
+    font-size: 100px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    text-align: center;
+    color: red;
+}
